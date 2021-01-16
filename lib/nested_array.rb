@@ -30,8 +30,7 @@ matrix[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
-matrix[0][2] = "Onions"
+matrix[0][2] = "Onions", "Lemons"
 
-matrix[0][2] = "Lemons"
 puts matrix
 end
